@@ -1,0 +1,21 @@
+{
+  "backup_plan": "v1.0",
+  "author" : "Denis Astahov",
+  "backups" : [
+    {
+      "backup_name" : "backup_folder1_data",
+      "source_folder" : "/home/tony/temp/folder1",
+      "target_folder" : "./mybackups"
+    },
+    {
+      "backup_name" : "backup_folder2_info",
+      "source_folder" : "/home/tony/temp/folder2",
+      "target_folder" : "./mybackups"
+    },
+    {
+      "backup_name" : "backup_folder3_logs",
+      "source_folder" : "/home/tony/temp/folder2",
+      "target_folder" : "./mybackups"
+    }
+  ]
+}
